@@ -1,0 +1,203 @@
+body {
+    background: #efce14;
+    font-family: monospace;
+    color: rgba(2, 2, 2, 0.671);
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    background-color: #caca6a;
+}
+
+.navbaritem {
+    float: left;
+    font-size: 4rem;
+}
+
+#titleButton {
+    text-decoration: none;
+    color: rgb(27 28 30);
+    padding: 20px;
+}
+
+
+.mainContainer {
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 7%;
+}
+
+#loginContainer {
+    max-width: 30%;
+    background-color: blanchedalmond;
+    min-height: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logInFormContainer {
+    text-align: left;
+    height: 100%;
+}
+
+/* CSS for the log in form */
+
+#emailAddressInput {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.logInFormList > li {
+    margin: 20px;
+}
+
+#submitEmail {
+    color: rgba(2, 2, 2, 0.671);
+    font-size: 2rem;
+    border: none;
+    background: none;
+    margin-top: 20%;
+}
+
+#submitEmail:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.formInput {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.formLabel {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#signUplinkArea {
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#signUpButton {
+    color: rgb(27 28 30);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#signUpButton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dropdownForm {
+    margin: 10px;
+    width: 90%;
+    padding: 5px;
+}
+
+.dropdownOption {
+    font-size: 1rem;
+}
+
+/* For the footer */
+
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 70px;
+    display: block;
+    text-align: center;
+    background-color: #caca6a;
+}
+
+.footer .item {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin: 20px;
+}
+
+.left-side {
+    float: left;
+}
+
+.footerButton {
+    line-height: inherit;
+    left: 0;
+    color: rgb(27 28 30);
+    text-decoration: none;
+}
+
+.footerButton:hover {
+    text-decoration: underline;
+    color: darkgrey;
+}
+
+/* For the sign up page */
+
+.signUpContainer {
+    width: 100%;
+    margin: 0;
+    display: block;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.signUpArea {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    color: black;
+}
+
+#createAccountButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+}
+
+#createAccountButton:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* For smart phones and Ipads */
+
+@media screen and (max-width: 800px) {
+    #loginContainer {
+        max-width: 80%;
+        min-height: 0;
+    }
+
+    .mainContainer {
+        margin-top: 80px;
+    }
+
+    .navbaritem {
+        text-align: center;
+    }
+    .footer .item {
+        font-size: 1rem;
+    }
+}

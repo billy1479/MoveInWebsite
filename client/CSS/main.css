@@ -1,0 +1,164 @@
+/* CSS For NavBar */
+body {
+    font-family: monospace;
+    margin: 0;
+    background: #efce14;
+    color: rgb(27 28 30);
+}
+
+.navbar {
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    background-color: #caca6a;
+}
+
+.navbaritem {
+    float: left;
+    font-size: 4rem;
+}
+
+#titleButton {
+    text-decoration: none;
+    color: rgb(27 28 30);
+    padding: 20px;
+}
+
+#userSignIn {
+    color: rgb(27 28 30);
+    padding: 10px;
+    font-size: 3rem
+}
+
+#userSignIn:hover {
+    color: darkgrey;
+}
+
+
+/* CSS for the main container */
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.left-sideArea {
+    margin-top: 50px;
+    flex: 48% 0;
+    text-align: left;
+    padding: 30px;
+}
+
+.right-sideArea {
+    margin-top: 50px;
+    flex: 0 48%;
+    text-align: center;
+}
+
+.normalList {
+    margin: 10px;
+}
+
+.normalList > li {
+    margin: 20px;
+}
+
+#imageContainer {
+    text-align: center;
+}
+
+#MoveInLogo {
+    width: 50%;
+}
+
+
+
+/* CSS for the footer */
+
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 70px;
+    display: block;
+    text-align: center;
+    background-color: #caca6a;
+}
+
+.footer .item {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin: 20px;
+}
+
+.left-side {
+    float: left;
+}
+
+.right-side {
+    float: right;
+}
+
+.footerButton {
+    line-height: inherit;
+    left: 0;
+    color: rgb(27 28 30);
+    text-decoration: none;
+}
+
+.footerButton:hover {
+    text-decoration: underline;
+    color: darkgrey;
+}
+
+.socialIcons {
+    color: rgb(27 28 30);
+}
+
+.socialIcons:hover {
+    color: darkgrey;
+}
+
+/* Error */ 
+
+.errorContainer {
+    text-align: center;
+    font-size: 4rem;
+}
+
+/* Privacy area */
+
+#privacy {
+    flex: none;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .left-sideArea {
+        flex: 100%;
+    }
+
+    .right-sideArea {
+        flex: 100%;
+    }
+
+    .footer .item {
+        font-size: 1rem;
+    }
+
+    .social {
+        float: none;
+    }
+
+    .footer {
+        position:relative;
+    }
+}
